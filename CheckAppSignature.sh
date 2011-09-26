@@ -1,6 +1,12 @@
 #! /bin/bash
+VERSION="1.0"
 FILE="$1"
 DIR=""
+
+echo "CheckAppSignature v.$VERSION."
+echo "© 2011, Andrey Tarantsov"
+echo "https://github.com/andreyvit/CheckAppSignature"
+echo ""
 
 if test -z "$FILE"; then
     echo "Please drag'n'drop IPA or APP into this window."
